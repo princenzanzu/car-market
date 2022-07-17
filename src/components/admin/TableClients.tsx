@@ -19,7 +19,7 @@ export const TableClients = () => {
   useEffect(() => {
     if (allClients.clients.length === 0) dispatch(getAllClients());
   }, []);
-  const columns: string[] = ["NUM", "NAME", "EMAIL", "PHONE", "DATE ENREGIST."];
+  const columns: string[] = ["Num", "Name", "Email", "Phone", "Date registred"];
 
   return (
     <div className='maiTabClients'>
@@ -46,7 +46,7 @@ export const TableClients = () => {
 
       <div className='content-actions'>
         <div>
-          <Button styleBtn={"btnPrimaryGradient"} textBtn={"Add"} />
+          <Button styleBtn={"btnPrimary"} textBtn={"Add"} />
         </div>
       </div>
     </div>

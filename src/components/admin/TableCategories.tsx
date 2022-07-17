@@ -53,7 +53,7 @@ export const TableCategories = () => {
       <div className='content-actions'>
         <div>
           <Button
-            styleBtn={"btnPrimaryGradient"}
+            styleBtn={"btnPrimary"}
             textBtn={"Add"}
             actionTo={() => history.push("/category/create")}
           />

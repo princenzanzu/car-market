@@ -19,7 +19,7 @@ function TableCustom() {
           </WidgetTdUser>
           <WidgetTd> 12/04/2022 </WidgetTd>
           <WidgetTd> 12-GOAM-2022 </WidgetTd>
-          <WidgetTd> HIMBI2 </WidgetTd>
+          <WidgetTd> KYESHERO </WidgetTd>
           <WidgetTd bgColor={"#3bb077"}> NON </WidgetTd>
         </WidgetLgTrRows>
       </Table>
@@ -79,7 +79,8 @@ export const WidgetLgTrRows = styled.tr`
   transition: all 0.3s ease;
   &:hover {
     transition: all 0.3s ease;
-    background-color: ${styleTheme.colors.colorTabHover};
+    background-color: #003153;
+    color: white;
   }
 `;
 export const WidgetTdUser = styled.td`
@@ -112,7 +113,7 @@ export const WidgetLgTrColumns = styled.tr`
   margin-bottom: 50px;
   color: ${styleTheme.colors.white};
   font-size: 1em;
-  background-color: ${styleTheme.colors.blueDark};
+  background-color: #002244;
   & th {
     text-align: center;
     border-bottom: 1px solid #000;
@@ -155,17 +156,18 @@ export const ScrollbarHor = styled.div<{ minWidth: string }>`
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: $main-color;
+    background-color: $color-primary;
   }
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #e6e6e6;
+    background-color: #002244;
   }
 
   &:hover {
     &::-webkit-scrollbar-thumb {
       border-radius: 10px;
-      background-color: $main-color;
+      background-color: #003153;
+      color: white;
     }
   }
 `;

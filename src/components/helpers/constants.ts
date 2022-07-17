@@ -1,11 +1,11 @@
 export const textMessageLogin = {
   COMPLETE_ALL_FIELDS:
-    "Veillez completez les tous les champs avec  informations valides",
-  COMPLETE_PASSWORD_FIELD: "Veillez taper votre mot de passe",
-  COMPLETE_EMAIL_FIELD: "Veillez taper votre email",
-  EMAIL_OR_PASSWORD_INVALID: "Email ou mot de passe invalide",
+    "Please complete all required fields with valid information",
+  COMPLETE_PASSWORD_FIELD: "Be sure to type your password",
+  COMPLETE_EMAIL_FIELD: "Be sure to type your email",
+  EMAIL_OR_PASSWORD_INVALID: "Invalid email or password",
   COMPLETE_ALL_FIELDS_REQUIRED:
-    "Veillez completez les tous les champs requis avec  informations valides"
+    "Please complete all required fields with valid information"
 };
 
 export const imgProjects = {
@@ -69,5 +69,5 @@ export enum TAB_ADMIN {
 
 export const textMessageSignUp = {
   COMPLETE_ALL_FIELDS_REQUIRED:
-    "Veillez completez les tous les champs requis avec  informations valides"
+    "Please complete all required fields with valid information"
 };

@@ -39,12 +39,12 @@ export const DetailCommand = () => {
   }, []);
 
   const columns: string[] = [
-    "NUM",
-    " ID. ARTICLES",
-    "OPTIONS",
-    "QUANTITE",
-    "PRIX TOTAL $",
-    "DATE ENREGIST."
+    "Num",
+    " Product Id",
+    "Options",
+    "Quantity",
+    "Total price $",
+    "Date registred"
   ];
 
   return (
@@ -83,7 +83,7 @@ export const DetailCommand = () => {
               </Table>
               <div className='right margin-top-2'>
                 <strong>
-                  total:{" "}
+                  TOTAL:{" "}
                   {getSumOfPriceforDetailCommand(allPaniersByCommand?.paniers)}
                 </strong>
               </div>
@@ -95,7 +95,7 @@ export const DetailCommand = () => {
               <div>
                 <Button
                   styleBtn={"btnPrimary"}
-                  textBtn={"Retour"}
+                  textBtn={"Cancel"}
                   actionTo={() => history.push(`/admin/${TAB_ADMIN.COMMANDS}`)}
                 />
               </div>

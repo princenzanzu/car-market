@@ -137,7 +137,7 @@ const TablePaniers = () => {
                 </Table>
                 <div className='right'>
                   <strong>
-                    total:{" "}
+                    TOTAL: ${" "}
                     {getSumOfPriceArticles(createCommand?.command?.panier)}
                   </strong>
                 </div>

@@ -22,7 +22,7 @@ export default function ShoppingBadges({ length }: any) {
   return (
     <IconButton aria-label='cart' style={{ margin: 0, padding: 0 }}>
       <StyledBadge badgeContent={length} color='error'>
-        <span style={{ color: `${length !== 0 ? "white" : "black"} ` }}>
+        <span style={{ color: `${length !== 0 ? "#003153" : "#002244"} ` }}>
           <AddShoppingCartIcon />
         </span>
       </StyledBadge>

@@ -28,11 +28,11 @@ $color-black: black;
 $color-black-card: black; // CAN CHANGE
 
 // var to use in this project
-$color-tab-hover: #e6e6e6;
+$color-tab-hover: #003153;
 $color-white: #fff;
-$color-white-hoverItem: rgb(201, 201, 201);
+$color-white-hoverItem: rgb(49, 83, 100);
 $color-black: black;
-$color-blackComment: rgb(100, 115, 115);
+$color-blackComment: rgb(49, 83, 100);
 $color-blackComment-2: #f2f2f2;
 
 $color-back-1: #002244;
@@ -41,7 +41,7 @@ $color-grayInput: #dddddd;
 $shadow: rgb(219, 218, 218);
 
 $color-primary: #002244; // CAN CHANGE
-$color-primary-hover: rgb(49, 83, 100); // CAN CHANGE
+$color-primary-hover:#003153; // CAN CHANGE
 
 // mixin
 
@@ -72,7 +72,7 @@ $color-primary-hover: rgb(49, 83, 100); // CAN CHANGE
 }
 
 @mixin backgGradient {
- // background: $color-primary;
+  //background: $color-primary;
   //background: linear-gradient(90deg, rgb(100, 98, 79) 0%, #f5781a 50%, #dba882 92%);
 }
 
@@ -201,15 +201,16 @@ button {
 }
 
 .btnPrimary {
-  background: $color-primary !important;
+  background: $color-primary;
   border-radius: 5px;
   &:hover {
-    background-color: $color-primary-hover;
+    background-color: $color-primary-hover !important;
   }
 }
 
 .btnPrimaryGradient {
   @include backgGradient;
+  background-color: #002244;
   &:hover {
     background-color: $color-primary-hover;
   }
@@ -354,8 +355,7 @@ section {
 .mainBreadcrumb {
   margin-bottom: 40px;
   margin-left: 25px;
-  .link {
-  }
+  
 }
 /*
 textarea {
@@ -414,4 +414,5 @@ input[type="submit"] {
 }
 .right {
   text-align-last: right;
+  margin-top: 20px;
 }
