@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Icon from '@mui/material/Icon';
 import CloseIcon from "@material-ui/icons/Close";
 import DehazeIcon from "@material-ui/icons/Dehaze";
 import { useHistory } from "react-router-dom";
